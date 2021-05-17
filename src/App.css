@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+html {
+    font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-size-small {
+    font-size: 0.875rem;
 }
 
-.App-link {
-  color: #61dafb;
+.font-size-large {
+    font-size: 1.125rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-weight-small {
+    font-weight: 100;
+}
+
+.font-weight-large {
+    font-weight: 700;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
+
+.mr-medium {
+    margin-right: 0.875rem;
+}
+
+.ml-medium {
+    margin-left: 0.875rem;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+
+.pl-auto {
+    padding-left: auto;
+}
+
+.pr-auto {
+    padding-right: auto;
+}
+
+.pt-auto {
+    padding-top: auto;
+}
+
+.pb-auto {
+    padding-bottom: auto;
+}
+
+.text-primary {
+    color: blue;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
 }
